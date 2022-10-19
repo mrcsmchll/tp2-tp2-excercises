@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "sync-async-filesystem",
+  "version": "1.0.0",
+  "description": "Trabajo Practico 2",
+  "main": "ms.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "Marcos Manchinelli",
+  "license": "ISC"
+}
