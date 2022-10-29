@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "sync-async-filesystem",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Trabajo Practico 2",
   "main": "ms.js",
   "directories": {
