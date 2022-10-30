@@ -12,7 +12,7 @@ const ms = filePath => {
 
         console.log(info)
 
-        fs.writeFileSync("info.txt", JSON.stringify(info, null, "\t"))
+        fs.writeFileSync("infoMs.txt", JSON.stringify(info, null, "\t"))
 
     } catch (error) {
         console.error(error.message)
