@@ -6,6 +6,7 @@ const mac = filePath => {
 
     let info = infoObjCreation(filePath)
     
+    
 
     
 
