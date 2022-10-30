@@ -1,14 +1,18 @@
 /* 1 --- File System en Modo Sincronico --- */
 import fs from 'fs'
 
+const infoObjCreation = filePath => {
+    return info = {
+        contenidoStr: JSON.stringify(fs.readFileSync(filePath, "utf-8"), null, "\t"),
+        contenidoObj: JSON.parse(fs.readFileSync(filePath, "utf-8")),
+        size: fs.statSync(filePath).size
+    }
+}
+
 const ms = filePath => {
     try {
 
-        let info = {
-            contenidoStr: JSON.stringify(fs.readFileSync(filePath, "utf-8"), null, "\t"),
-            contenidoObj: JSON.parse(fs.readFileSync(filePath, "utf-8")),
-            size: fs.statSync(filePath).size
-        }
+        let info = infoObjCreation(filePath)
 
         console.log(info)
 
@@ -20,6 +24,8 @@ const ms = filePath => {
 
 }
 
-export default ms
-
+export  {
+    ms,
+    infoObjCreation
+}
 
