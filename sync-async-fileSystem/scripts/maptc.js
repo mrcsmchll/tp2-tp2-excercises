@@ -22,13 +22,6 @@ const maptc = filepath => {
     })
 }
 
-/* Then/Catch should be use in test.js */
-maptc("../package.json").then(data => {
-    console.log(data)
-}).catch(err => {
-    console.log(`error en maptc: ${err.message}`)
-})
-
 export default maptc
 
 
