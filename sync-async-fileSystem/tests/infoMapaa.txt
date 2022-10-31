@@ -1,6 +1,6 @@
 {
 	"contenidoStr": "\"{\\n  \\\"type\\\": \\\"module\\\",\\n  \\\"name\\\": \\\"sync-async-filesystem\\\",\\n  \\\"version\\\": \\\"0.0.1\\\",\\n  \\\"description\\\": \\\"Trabajo Practico 2\\\",\\n  \\\"main\\\": \\\"ms.js\\\",\\n  \\\"directories\\\": {\\n    \\\"test\\\": \\\"tests\\\"\\n  },\\n  \\\"scripts\\\": {\\n    \\\"test\\\": \\\"node test.js\\\"\\n  },\\n  \\\"keywords\\\": [],\\n  \\\"author\\\": \\\"Marcos Manchinelli\\\",\\n  \\\"license\\\": \\\"ISC\\\"\\n}\\n\"",
-	"contenidoObj": {
+	"contenidoStrObj": {
 		"type": "module",
 		"name": "sync-async-filesystem",
 		"version": "0.0.1",
